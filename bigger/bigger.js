@@ -3,7 +3,7 @@ mayor(arr, n):
   // input: ...
   // output: ...
   mayor <- 0
-  FOR i <-0 TO n - 2:
+  FOR i <-0 TO n - 1:
     IF arr[i] > arr[i + 1]:
       mayor <- arr[i]
     ELSE
@@ -34,7 +34,7 @@ mayor(arr, n):
 function bigger(arr) {
   let bigger = arr[0];
 
-  for (let i = 1; i < arr.length; ++) {
+  for (let i = 1; i < arr.length; i++) {
     if (arr[i] > bigger) {
       bigger = arr[i];
     }
